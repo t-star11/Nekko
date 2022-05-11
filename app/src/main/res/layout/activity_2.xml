@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Basic Layout for Activity 2 (Schedule Consultation) -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="0dp"
+        android:layout_height="107dp"
+        app:layout_constraintEnd_toEndOf="@+id/calendarView"
+        app:layout_constraintStart_toStartOf="@+id/calendarView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/applogo" />
+
+    <!-- Button for Main Activity -->
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        app:layout_constraintEnd_toEndOf="@+id/set_cons"
+        app:layout_constraintStart_toStartOf="@+id/set_cons"
+        app:layout_constraintTop_toBottomOf="@+id/app_logo" />
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/set_cons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_a_consultation"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/calendarView"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/go_back" />
+
+    <!-- Interactive Calendar -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="337dp"
+        android:layout_height="325dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/confirm"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/confirm"
+        app:layout_constraintTop_toBottomOf="@+id/set_cons"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- Button for Scheduling -->
+    <Button
+        android:id="@+id/schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule"
+        app:layout_constraintEnd_toEndOf="@+id/calendarView"
+        app:layout_constraintStart_toStartOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+    <!-- Confirmation text for Scheduling Button Press -->
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schedule"
+        app:layout_constraintVertical_bias="0.088" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- All Strings within the App -->
+
+    <string name="app_name">Nekko</string>
+    <string name="services">Services</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="testimonials">Testimonials</string>
+    <string name="go_back">Go Back</string>
+    <string name="quot_the_process_of_scheduling_a_consultation_was_easy_and_barely_took_any_time_at_all_quot">\"The process of scheduling a consultation was easy and barely took any time at all!\"</string>
+    <string name="nekko_s_timeframes_for_work_were_always_accurate_and_were_always_quick_to_reply_and_help_whenever_i_had_questions">Nekko\'s timeframes for work were always accurate and were always quick to reply and help whenever I had questions.</string>
+    <string name="quot_the_translation_was_made_seamlessly_with_my_advertisement_quot">\"The translation was made seamelessly with my advertisement!\"</string>
+    <string name="welcome">Welcome!</string>
+
+    <string name="schedule">Schedule</string>
+
+    <string name="set_a_consultation">Set a Consultation</string>
+
+    <string name="what_we_do">What We Do</string>
+    <string name="japan_explain">We provide Japanese translations for your visual media, advertisement, or written media. From your latest novel to your next major film, we can translate while being with you every step of the way to give you the best version of your translated media.</string>
+
+
+</resources>

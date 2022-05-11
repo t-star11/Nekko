@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Landscape Layout for Activity 4 (Testimonials) -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="274dp"
+        android:layout_height="63dp"
+        android:text="@string/quot_the_translation_was_made_seamlessly_with_my_advertisement_quot"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="364dp"
+        android:text="@string/nekko_s_timeframes_for_work_were_always_accurate_and_were_always_quick_to_reply_and_help_whenever_i_had_questions"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="227dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/applogo" />
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/go_back"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/testimonials"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/go_back"
+        app:layout_constraintEnd_toEndOf="@+id/app_logo"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/app_logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="71dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781"
+        app:srcCompat="@drawable/avatar_10" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_13" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="71dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/avatar_7" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="274dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/quot_the_process_of_scheduling_a_consultation_was_easy_and_barely_took_any_time_at_all_quot"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
